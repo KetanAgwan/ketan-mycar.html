@@ -1,0 +1,63 @@
+<html>
+<head>
+<title>card</title>
+</head>
+<style>
+*{
+margin:0px;
+padding:0px;
+}
+.container{
+display:flex;
+background-image:url("colorbg2.png");
+justify-content:center;
+align-items:center;
+height:100vh;
+width:100vw;
+z-index:3;
+}
+.card{
+background-color:none;
+height:800px;
+width:800px;
+z-index:4;
+box-shadow:4px 4px 10px black;
+border-radius:10px;
+}
+#myimg{
+margin:0px 200px 0px 200px;
+background-color:none;
+box-shadow:10px 5px 15px rgb(227,47,2),12px 10px 8px orange;
+border-radius:200px;
+}
+p{
+font-size:40;
+}
+h1{
+font-weight:10;
+margin:4px;
+}
+footer{
+display:inline-block;
+}
+#insta{
+border-radius:12px;
+margin:30px 300px 0px 20px;
+}
+
+#fb:hover{
+box-shadow:3px 3px 3px blue;
+border-radius:18px;
+}
+#insta:hover{
+box-shadow:3px 3px 3px red,1px 1px 2px yellow;
+}
+</style>
+<body>
+<div class="container">
+<div class="card"><img id="myimg" src="myimg2.png" height="425" width="400"><br><br><br><p>Hi!,i'm Ketan Agwan...</p><h1>I'm a student at C.D. JAIN college of commerce and i'm currently studying computer applications.<br>I'm studying how o create website's front ends using HTML and CSS.This is my card...</h1>
+<footer><a href="https://www.facebook.com/ketan.agwan"><img id="fb" src="faceb.png" height="40" width="40"></a><a href="https://www.instagram.com/ketanagwan/"><img id="insta" src="insta.jpg" height="40" width="40"></a></footer>
+</div>
+</div>
+</body>
+</html>
